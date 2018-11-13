@@ -1,5 +1,4 @@
 # Write your code here.
-nd
 
 def line(x)
   line_array = []
