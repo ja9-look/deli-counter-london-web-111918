@@ -8,6 +8,6 @@ def line(array)
   new_array.each_with_index do |number, name|
   new_array << "#{number}. #{name} "
 end
-       puts "The line is currently: #{new_array.join("")}"
+  puts "The line is currently: #{new_array.join("")}"
 end
 end
