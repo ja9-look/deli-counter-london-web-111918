@@ -2,10 +2,10 @@
 
 def line(array)
   new_array=[]
+   index = number + 2
   if array.size == 0 
     puts "The line is currently empty."
   else
-    index = number + 2
   array.each_with_index do |index, name|
   new_array << "#{index}. #{name} "
 end
