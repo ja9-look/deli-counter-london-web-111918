@@ -2,7 +2,7 @@
 
 def line(array)
   new_array=[]
-  if array.size == 0 
+  if array.length == 0 
     puts "The line is currently empty."
   else
   new_array.each_with_index(1) do |index, name|
